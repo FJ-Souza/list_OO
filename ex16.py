@@ -1,5 +1,5 @@
 class BichinhoVirtual:
-    def _init_(self, nome):
+    def __init__(self, nome):
         self.nome = nome
         self.fome = 50
         self.tedio = 50

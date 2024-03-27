@@ -1,5 +1,5 @@
 class Carro:
-    def _init_(self, consumo):
+    def __init__(self, consumo):
         self.consumo = consumo
         self.combustivel = 0
 

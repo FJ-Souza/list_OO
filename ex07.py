@@ -31,6 +31,12 @@ class Bichinho_virtual:
     def receber_idade(self):
         return self.idade
     
+    def humor(self):
+        if self.fome >= 50 and self.saude >= 50:
+            return "feliz"
+        else:
+            return "triste"
+    
 bichinho = Bichinho_virtual("Totó", 90, 100, 8)
 print("Nome: ", bichinho.receber_nome())
 print("Fome: ", bichinho.receber_fome())
@@ -53,3 +59,6 @@ else:
     print("Saúde: ",bichinho.receber_saude())
 
 print("Idade: ", bichinho.receber_idade())
+
+
+print(f"{bichinho.nome} está {bichinho.humor()}.")

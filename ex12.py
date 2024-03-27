@@ -1,5 +1,5 @@
 class ContaInvestimento:
-    def _init_(self, saldo_inicial, taxa_juros):
+    def __init__(self, saldo_inicial, taxa_juros):
         self.saldo = saldo_inicial
         self.taxa_juros = taxa_juros / 100
 

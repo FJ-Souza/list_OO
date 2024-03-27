@@ -1,5 +1,5 @@
 class Ponto:
-    def _init_(self, x, y):
+    def __init__(self, x, y):
         self.x = x
         self.y = y
 
@@ -8,7 +8,7 @@ class Ponto:
 
 
 class Retangulo:
-    def _init_(self, ponto_inicial, largura, altura):
+    def __init__(self, ponto_inicial, largura, altura):
         self.ponto_inicial = ponto_inicial
         self.largura = largura
         self.altura = altura

@@ -1,7 +1,7 @@
 import random
 
 class BichinhoVirtual:
-    def _init_(self, nome):
+    def __init__(self, nome):
         self.nome = nome
         self.fome = random.randint(1, 100)
         self.tedio = random.randint(1, 100)
@@ -27,7 +27,7 @@ class BichinhoVirtual:
 
 
 class FazendaDeBichinhos:
-    def _init_(self):
+    def __init__(self):
         self.bichinhos = []
 
     def adicionar_bichinho(self, bichinho):
